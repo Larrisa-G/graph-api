@@ -106,3 +106,23 @@ main{
     padding: 0 10px;
     justify-content: space-between;
 }
+
+section{
+    background-color: none;
+    position: relative;
+    position: relative;
+    border-radius: 15px;
+    margin: 0 10px;
+    display: flex;
+}
+
+.section_in{
+    background-color: #C5F0FF;
+    flex: 1;
+}
+
+.section_out{
+    background-color: #C5F0FF;
+    flex: 1.5;
+}
+
