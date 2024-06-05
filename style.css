@@ -9,6 +9,7 @@
     --cor7: black;
 
     --center: 30px; 
+    --radius: 15px;
 }
 
 *{
@@ -23,4 +24,85 @@ html {
 
 body{
     background-color: var(--cor0);
+}
+
+#master{
+    background-color: var(--cor2);
+    height: 100%;
+    width: 100%;
+    border: 4px solid var(--cor7);
+    border-radius: var(--radius);
+}
+
+
+/*  Header  */
+
+header{
+    min-height: 120px;
+    margin-top: 5px;
+    border-radius: var(--radius);
+}
+
+nav{
+    min-height: 28px;
+    margin: 25px var(--center) 0px 0px;
+    padding: 0;
+    display: flex;    
+    flex-wrap: wrap;
+}
+
+nav a{
+    border: 2px solid var(--cor7);
+    border-top-right-radius: var(--radius);
+    border-top-left-radius: var(--radius);
+    border-bottom: none;
+    padding: 14px 32px 12px 32px;
+    text-decoration: none;
+    font-size: 18px;
+    color:var(--cor7);
+    background-color: var(--cor3);
+}
+
+#pag_now{
+    background-color: var(--cor4);
+    color: var(--cor0);
+}
+
+#header_botton{
+    background-color: var(--cor4);
+    min-height: 90px;
+    border: 2px solid var(--cor7);
+    border-radius: var(--radius);
+    margin-top: 0;
+    border-left: none;
+    border-right: none;
+    border-top-left-radius: 0px;
+    display: flex;
+    align-items: center;
+    padding-right: 50px;        
+}
+
+.circulo{
+    border: 3px solid var(--cor7);
+    border-radius: 50px;
+    height: 40px;
+    width: 40px;
+    margin-left: auto;
+    background-color: var(--cor6);
+}
+
+
+/*  Main    */
+
+main{
+    background-color: var(--cor1);
+    min-height: 540px;
+    margin: 0px var(--center) var(--center) var(--center);
+    border: 2px solid var(--cor7);
+    border-radius: var(--radius);
+    border-top: none;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    justify-content: space-between;
 }
