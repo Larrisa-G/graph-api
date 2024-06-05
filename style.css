@@ -1,0 +1,26 @@
+:root{
+    --cor0: white;
+    --cor1: #F2F0F1;
+    --cor2: #EBECF0;
+    --cor3: #C5F0FF;
+    --cor4: #29B696;
+    --cor5: #EDA1C7;
+    --cor6: #EF893C;
+    --cor7: black;
+
+    --center: 30px; 
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    overflow: hidden;
+}
+
+body{
+    background-color: var(--cor0);
+}
