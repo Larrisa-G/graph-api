@@ -126,3 +126,72 @@ section{
     flex: 1.5;
 }
 
+
+/*  Matrizes    */
+
+form{
+    min-height: 300px;
+    max-width: 350px;
+    flex: 1;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+}
+
+.matrix_adj_form{
+    left: 0;
+}
+
+.matrix_title_box{
+    border: 2px solid var(--cor7);
+    border-radius: 15px;
+    width: 300px;
+    height: 40px;
+    font-size: 12pt;
+    color:var(--cor7);
+    background-color: var(--cor0);
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+        
+.matrix_table{
+    background-color: var(--cor0);
+    border: 2px solid var(--cor7);
+    border-radius: 15px;
+    min-height: 40px;
+    max-width: 310px;
+    flex: 1;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px;
+}
+
+td input{
+    min-height: 25px;
+    max-width: 25px;
+    flex: 1;
+    font-size: 15pt;
+}
+
+
+/*  Telas grandes : Até 908 x 855     */
+
+
+.section_in{
+    min-height: 430px;
+    max-width: 320px;
+
+}
+
+.section_out{
+    min-height: 430px;
+    max-width: 760px;
+    min-width: 500px;
+}
+
