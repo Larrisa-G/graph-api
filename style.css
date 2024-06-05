@@ -172,11 +172,22 @@ form{
     padding: 3px;
 }
 
+
+
 td input{
     min-height: 25px;
     max-width: 25px;
     flex: 1;
     font-size: 15pt;
+}
+
+td label{
+    min-height: 25px;
+    max-width: 25px;
+    flex: 1;
+    font-size: 15pt;
+    display: flex;
+    padding: 0 5px 0 5px
 }
 
 
