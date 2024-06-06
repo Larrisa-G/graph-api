@@ -77,6 +77,7 @@ nav a{
     border-left: none;
     border-right: none;
     border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
     display: flex;
     align-items: center;
     padding-right: 50px;        
@@ -89,6 +90,21 @@ nav a{
     width: 40px;
     margin-left: auto;
     background-color: var(--cor6);
+}
+
+.button_gerar_matriz{
+    border: 2px solid var(--cor7);
+    border-radius: var(--radius);
+    height: 40px;
+    width: 120px;
+    margin-right: auto;
+    background-color: var(--cor3);
+    color: var(--cor7);
+    font-size: 11pt;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin: 0 0 20px 20px;
 }
 
 
@@ -134,6 +150,26 @@ section{
     bottom: 0;
     left: 0;
 }
+
+.opcao_direcionado{
+    width: 160px;
+    height: 42px;
+    font-size: 11pt;
+    color:#545454;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    margin-left: 10px;
+}
+
+
+.input_direcionado{
+    position: absolute;
+    right: 0;
+}
+
 
 
 /*  Matrizes    */
@@ -184,6 +220,22 @@ form{
     justify-content: center;
     align-items: center;
 }
+
+.matrix_title_box_geradora_min{
+    border: 2px solid var(--cor7);
+    border-radius: 15px;
+    width: 280px;
+    height: 50px;
+    font-size: 12pt;
+    color:var(--cor7);
+    background-color: var(--cor0);
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 3px 0;
+}
         
 .matrix_table{
     background-color: var(--cor0);
@@ -197,6 +249,7 @@ form{
     align-items: center;
     justify-content: center;
     padding: 3px;
+    /*box-shadow: 5px 15px 10px rgba(0, 0, 0, 0.3);*/
 }
 
 td input{
@@ -220,7 +273,7 @@ td label{
 
 
 .section_in{
-    min-height: 430px;
+    min-height: 445px;
     max-width: 320px;
 
 }
