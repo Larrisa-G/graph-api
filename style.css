@@ -98,13 +98,18 @@ nav a{
     height: 40px;
     width: 120px;
     margin-right: auto;
-    background-color: var(--cor3);
-    color: var(--cor7);
+    background-color: var(--cor4);
+    color: var(--cor0);
     font-size: 11pt;
     position: absolute;
     left: 0;
     bottom: 0;
     margin: 0 0 20px 20px;
+    transition: background-color 0.3s ease;
+}
+.button_gerar_matriz:hover {
+    background-color: var(--cor3);
+    color: var(--cor7);
 }
 
 
@@ -152,22 +157,22 @@ section{
 }
 
 .opcao_direcionado{
-    width: 160px;
+    width: 180px;
     height: 42px;
     font-size: 11pt;
     color:#545454;
     margin-bottom: 15px;
     display: flex;
-    align-items: center;
+    justify-content: space-between;
     position: absolute;
     bottom: 0;
     margin-left: 10px;
+    
 }
 
 
-.input_direcionado{
-    position: absolute;
-    right: 0;
+.label_direcionado{
+    
 }
 
 
@@ -284,3 +289,44 @@ td label{
     min-width: 500px;
 }
 
+/*      checkbox     */
+ 
+ .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: relative;
+    display: inline-block;
+    width: 35px;
+    height: 20px;
+}
+
+.slider:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 4px;
+    width: 12px;
+    height: 12px;
+    background-color: white;
+    border-radius: 50%;
+    transition: 0.4s;
+    transform: translateY(-50%);
+}
+
+.slider.round {
+    border-radius: 34px;
+    background-color: #ccc;
+    transition: 0.4s;
+}
+
+input:checked + .slider.round {
+    background-color: #29B696;
+}
+
+input:checked + .slider.round:before {
+    transform: translate(12px, -50%);
+}
