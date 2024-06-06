@@ -103,7 +103,7 @@ main{
     border-top: none;
     display: flex;
     align-items: center;
-    padding: 0 10px;
+    padding: 0 50px;
     justify-content: space-between;
 }
 
@@ -117,13 +117,22 @@ section{
 }
 
 .section_in{
-    background-color: #C5F0FF;
     flex: 1;
 }
 
 .section_out{
-    background-color: #C5F0FF;
-    flex: 1.5;
+   flex: 1.5;
+}
+
+.conteiner{
+    background-color: var(--cor5);
+    width: 40vw;
+    height: 300px;
+    border-radius: 10px;
+    border: 2px solid var(--cor7);
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
 
 
@@ -142,6 +151,10 @@ form{
 
 .matrix_adj_form{
     left: 0;
+}
+
+.matrix_new_form{
+    left: calc(40vw - 160px);
 }
 
 .matrix_title_box_adj{
@@ -186,8 +199,6 @@ form{
     padding: 3px;
 }
 
-
-
 td input{
     min-height: 25px;
     max-width: 25px;
@@ -216,7 +227,7 @@ td label{
 
 .section_out{
     min-height: 430px;
-    max-width: 760px;
+    max-width: 725px;
     min-width: 500px;
 }
 
